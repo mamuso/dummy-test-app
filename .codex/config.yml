@@ -1,9 +1,3 @@
 steps:
-- task: Npm@1
-  displayName: npm install
-  inputs:
-    command: install
-- task: Npm@1
-  displayName: npm test
-  inputs:
-    command: test
+- script: npm install
+- script: npm test
