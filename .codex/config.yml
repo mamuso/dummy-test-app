@@ -1,3 +1,4 @@
 steps:
 - script: npm install
 - script: npm test -a
+- script: npm run build
