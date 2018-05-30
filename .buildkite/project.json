@@ -1,0 +1,8 @@
+{
+  "name": "Dummy App",
+  "steps": [{
+    "type": "script",
+    "name": ":pipeline:",
+    "command": "buildkite-agent pipeline upload"
+  }]
+}
