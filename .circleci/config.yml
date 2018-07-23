@@ -1,4 +1,4 @@
-# Javascript Node CircleCI 2.0 configuration file
+le# Javascript Node CircleCI 2.0 configuration file
 #
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
@@ -11,3 +11,4 @@ jobs:
       - checkout
       - run: npm install
       - run: npm test
+      - run: npm run build
